@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8103E6616D4389A00A6A25D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B8103E6516D4389A00A6A25D /* Game.m */; };
+		B8103E6916D439CF00A6A25D /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = B8103E6816D439CF00A6A25D /* Course.m */; };
 		B87FC9DC1683B49600B0512C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FC9DB1683B49600B0512C /* UIKit.framework */; };
 		B87FC9DE1683B49600B0512C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FC9DD1683B49600B0512C /* Foundation.framework */; };
 		B87FC9E01683B49600B0512C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FC9DF1683B49600B0512C /* CoreGraphics.framework */; };
@@ -28,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8103E6416D4389A00A6A25D /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		B8103E6516D4389A00A6A25D /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		B8103E6716D439CF00A6A25D /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		B8103E6816D439CF00A6A25D /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 		B87FC9D71683B49600B0512C /* GolfScorecard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfScorecard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87FC9DB1683B49600B0512C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B87FC9DD1683B49600B0512C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +78,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8103E6216D436EA00A6A25D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B87FCA0C1684A7AB00B0512C /* Player.h */,
+				B87FCA0D1684A7AB00B0512C /* Player.m */,
+				B8103E6416D4389A00A6A25D /* Game.h */,
+				B8103E6516D4389A00A6A25D /* Game.m */,
+				B8103E6716D439CF00A6A25D /* Course.h */,
+				B8103E6816D439CF00A6A25D /* Course.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		B87FC9CC1683B49600B0512C = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +121,7 @@
 		B87FC9E11683B49600B0512C /* GolfScorecard */ = {
 			isa = PBXGroup;
 			children = (
+				B8103E6216D436EA00A6A25D /* Models */,
 				B87FCA031683B89100B0512C /* SecondViewController.h */,
 				B87FCA041683B89100B0512C /* SecondViewController.m */,
 				B87FC9EA1683B49600B0512C /* AppDelegate.h */,
@@ -115,8 +135,6 @@
 				B87FCA071684999500B0512C /* PlayerDetailsViewController.m */,
 				B87FCA0916849DDF00B0512C /* PlayersViewController.h */,
 				B87FCA0A16849DDF00B0512C /* PlayersViewController.m */,
-				B87FCA0C1684A7AB00B0512C /* Player.h */,
-				B87FCA0D1684A7AB00B0512C /* Player.m */,
 				B8CEA50016D420A5009E202B /* HolesViewController.h */,
 				B8CEA50116D420A5009E202B /* HolesViewController.m */,
 				B8CEA50616D429D6009E202B /* HoleScore.xib */,
@@ -214,6 +232,8 @@
 				B87FCA0B16849DDF00B0512C /* PlayersViewController.m in Sources */,
 				B87FCA0E1684A7AB00B0512C /* Player.m in Sources */,
 				B8CEA50216D420A5009E202B /* HolesViewController.m in Sources */,
+				B8103E6616D4389A00A6A25D /* Game.m in Sources */,
+				B8103E6916D439CF00A6A25D /* Course.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
