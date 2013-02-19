@@ -20,8 +20,6 @@
 		B87FC9F21683B49600B0512C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87FC9F11683B49600B0512C /* Default-568h@2x.png */; };
 		B87FC9F51683B49600B0512C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87FC9F31683B49600B0512C /* MainStoryboard_iPhone.storyboard */; };
 		B87FC9F81683B49600B0512C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87FC9F61683B49600B0512C /* MainStoryboard_iPad.storyboard */; };
-		B87FC9FB1683B49600B0512C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FC9FA1683B49600B0512C /* ViewController.m */; };
-		B87FCA051683B89100B0512C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FCA041683B89100B0512C /* SecondViewController.m */; };
 		B87FCA081684999500B0512C /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FCA071684999500B0512C /* PlayerDetailsViewController.m */; };
 		B87FCA0B16849DDF00B0512C /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FCA0A16849DDF00B0512C /* PlayersViewController.m */; };
 		B87FCA0E1684A7AB00B0512C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FCA0D1684A7AB00B0512C /* Player.m */; };
@@ -49,10 +47,6 @@
 		B87FC9F11683B49600B0512C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B87FC9F41683B49600B0512C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B87FC9F71683B49600B0512C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B87FC9F91683B49600B0512C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B87FC9FA1683B49600B0512C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B87FCA031683B89100B0512C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B87FCA041683B89100B0512C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B87FCA061684999500B0512C /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
 		B87FCA071684999500B0512C /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
 		B87FCA0916849DDF00B0512C /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
@@ -122,14 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				B8103E6216D436EA00A6A25D /* Models */,
-				B87FCA031683B89100B0512C /* SecondViewController.h */,
-				B87FCA041683B89100B0512C /* SecondViewController.m */,
 				B87FC9EA1683B49600B0512C /* AppDelegate.h */,
 				B87FC9EB1683B49600B0512C /* AppDelegate.m */,
 				B87FC9F31683B49600B0512C /* MainStoryboard_iPhone.storyboard */,
 				B87FC9F61683B49600B0512C /* MainStoryboard_iPad.storyboard */,
-				B87FC9F91683B49600B0512C /* ViewController.h */,
-				B87FC9FA1683B49600B0512C /* ViewController.m */,
 				B87FC9E21683B49600B0512C /* Supporting Files */,
 				B87FCA061684999500B0512C /* PlayerDetailsViewController.h */,
 				B87FCA071684999500B0512C /* PlayerDetailsViewController.m */,
@@ -226,8 +216,6 @@
 			files = (
 				B87FC9E81683B49600B0512C /* main.m in Sources */,
 				B87FC9EC1683B49600B0512C /* AppDelegate.m in Sources */,
-				B87FC9FB1683B49600B0512C /* ViewController.m in Sources */,
-				B87FCA051683B89100B0512C /* SecondViewController.m in Sources */,
 				B87FCA081684999500B0512C /* PlayerDetailsViewController.m in Sources */,
 				B87FCA0B16849DDF00B0512C /* PlayersViewController.m in Sources */,
 				B87FCA0E1684A7AB00B0512C /* Player.m in Sources */,
